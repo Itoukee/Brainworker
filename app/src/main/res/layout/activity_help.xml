@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.HelpActivity"
+    android:background="@drawable/help_background">
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+
+    >
+
+    <TextView
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginRight="127dp"
+        android:alpha="0.8"
+        android:background="@color/colorPrimaryDark"
+        android:text="HELP"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:alpha="0.7"
+        android:background="@color/colorPrimaryDark"
+        android:text="If you are in this app, that's because you wanted to be better, than the others
+or just to be stronger. Lucky you, you are at the good place. Let me introduce myself, the creator of this project : Itstrike.
+Player since the beta of the game, I've gone through a lot of experiences like anyone. Started from scratch and now, an experienced player.
+This is just the first version of the database so don't hesitate to give me idea, report bugs...
+Here is the discord server invite link :
+
+Please remember that none of this application is made to make any kind of money and only waits to be improved."
+        android:textColor="#FFFFFFFF" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp"
+        android:alpha="0.7"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:text="Privacy policy :
+The images contained within are copyrighted by LION GAMES Corp and stats are intellectual property
+LION GAMES Corp : ©LIONGAMES Co.,Ltd.
+All rights reserved. SoulWorker is trademark of registered trademarks of LIONGAMES
+
+Application does not store or transmit user data. Doesn't collect anonymous data Google Analytics or Google Play Developper console.
+"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="550dp"
+        android:text="Who is in the screens of the characters today ?\n
+Haru : Yusaki,Nahomei,Niquettes's Haru \n
+Lily : Konohe,Itstrike \n
+Stella : Niquette's Stella, Kleo and V∅rtice \n
+Erwin : deathlord,and Yöshi's Erwin \n
+Jin : Darkness and Ekirtsti \n
+Iris : Yujiro, Aliasis and V∅rtice \n
+Chii : Cyua,𝒜𝓇𝒸𝒶𝒹𝒾𝒶, and Kono's Chii \n
+Special thanks to all of you who helped me in this long quest, to prevent from stupidity. \n
+Your dear Itstrike"/>
+
+    <TextView
+        android:id="@+id/activity_help_link"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:alpha="0.7"
+        android:background="@color/colorPrimary"
+        android:textColor="#03A9F4"
+        android:layout_marginTop="780dp"
+        android:text="@string/link"
+        />
+
+
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

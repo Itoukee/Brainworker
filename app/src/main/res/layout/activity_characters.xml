@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="view.MainActivity">
+
+    <ImageView
+        android:layout_width="352dp"
+        android:layout_height="149dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/characters" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="134dp"
+        android:src="@drawable/harubanniere" />
+
+    <Button
+        android:id="@+id/haru_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="174dp"
+        android:alpha="0.55"
+        android:background="#000000"
+        android:padding="20dp"
+        android:text="Haru Estia"
+        android:textColor="#FF7800" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="256dp"
+        android:src="@drawable/lilybanniere" />
+
+    <Button
+        android:id="@+id/lily_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="293dp"
+        android:alpha="0.55"
+        android:background="#000000"
+        android:padding="20dp"
+        android:text="Lily Bloomerchen"
+        android:textColor="#BA00FF" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="365dp"
+        android:src="@drawable/stellabanniere" />
+
+    <Button
+        android:id="@+id/stella_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="404dp"
+        android:alpha="0.85"
+        android:background="#000000"
+        android:padding="20dp"
+        android:text="Stella Unibell"
+        android:textColor="#7800FF" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="485dp"
+        android:src="@drawable/erwinbanniere" />
+
+    <Button
+        android:id="@+id/erwin_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="530dp"
+        android:alpha="0.85"
+        android:background="#000000"
+        android:padding="20dp"
+        android:text="Erwin Arclight"
+        android:textColor="#2799F9" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="587dp"
+        android:src="@drawable/jinbanniere" />
+
+    <Button
+        android:id="@+id/jin_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="653dp"
+        android:alpha="0.85"
+        android:background="#000000"
+        android:padding="20dp"
+        android:text="Jin Seipatsu"
+        android:textColor="#FFD800" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="713dp"
+        android:src="@drawable/irisbanniere" />
+
+    <Button
+        android:id="@+id/iris_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="773dp"
+        android:alpha="0.85"
+        android:background="#000000"
+        android:padding="20dp"
+        android:text="Iris Yuma"
+        android:textColor="#FF00" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="828dp"
+        android:src="@drawable/chiibanniere" />
+
+    <Button
+        android:id="@+id/chii_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="890dp"
+        android:alpha="0.85"
+        android:background="#000000"
+        android:padding="20dp"
+        android:text="Chii Aruel"
+        android:textColor="#FF00" />
+
+</RelativeLayout>
+</ScrollView>

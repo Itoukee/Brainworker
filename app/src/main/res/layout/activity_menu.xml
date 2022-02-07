@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.Main2Activity"
+    android:background="@color/colorPrimary">
+
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <Button
+        android:id="@+id/parameters"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/interrogationpoint" />
+
+    <ImageView
+        android:layout_width="404dp"
+        android:layout_height="218dp"
+        android:src="@drawable/banniere" />
+
+    <Button
+        android:id="@+id/characters_button"
+        android:layout_width="131dp"
+        android:layout_height="136dp"
+        android:background="@drawable/haru"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        />
+
+    <TextView
+        android:id="@+id/characters"
+        android:layout_width="109dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="195dp"
+        android:textSize="22sp"
+        android:text="Characters"
+        android:textStyle="italic"
+        android:textColor="#03A9F4" />
+
+    <Button
+        android:id="@+id/story_button"
+        android:layout_width="138dp"
+        android:layout_height="152dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="218dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginRight="220dp"
+        android:background="@drawable/jin" />
+
+    <TextView
+        android:id="@+id/story"
+        android:layout_width="109dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="45dp"
+        android:text="Beginners"
+        android:textColor="#03A9F4"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/raid_button"
+        android:layout_width="167dp"
+        android:layout_height="139dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="411dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginRight="211dp"
+        android:background="@drawable/boss_icon" />
+
+    <TextView
+        android:id="@+id/Raids"
+        android:layout_width="109dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="550dp"
+        android:text="Raids"
+        android:textColor="#03A9F4"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/bc_button"
+        android:layout_width="138dp"
+        android:layout_height="152dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/chiibutton" />
+
+    <TextView
+        android:id="@+id/Broochs"
+        android:layout_width="130dp"
+        android:layout_height="41dp"
+    android:layout_marginTop="550dp"
+        android:layout_marginLeft="190dp"
+        android:text="Broochs/calculs"
+        android:textColor="#03A9F4"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/akashic_menu"
+        android:layout_width="105dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="604dp"
+        android:background="@drawable/akashic" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="720dp"
+        android:layout_marginStart="20dp"
+        android:text="Entertainement"
+        android:textColor="#03A9F4"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+
+
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.RaidActivity"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_marginTop="310dp"
+                android:text="1]Gear raids"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="248dp"
+                android:layout_marginLeft="-275dp"
+                android:layout_marginTop="90dp"
+                android:src="@drawable/lucy" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="204dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/lucy_message" />
+
+
+            <Button
+                android:id="@+id/aov_button"
+                android:layout_width="357dp"
+                android:layout_height="205dp"
+                android:layout_marginLeft="195dp"
+                android:layout_marginTop="370dp"
+                android:background="@drawable/boss_aov" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/loadingaov"
+                android:layout_marginTop="350dp"
+                android:layout_marginLeft="150dp"/>
+            <Button
+                android:id="@+id/hh_button"
+                android:layout_width="236dp"
+                android:layout_height="221dp"
+                android:layout_marginLeft="-40dp"
+                android:layout_marginTop="360dp"
+                android:background="@drawable/boss_hidden_hideout" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:src="@drawable/loadinghh"
+                android:layout_marginTop="370dp"
+                android:layout_marginLeft="-390dp"/>
+            <Button
+                android:id="@+id/primal_button"
+                android:layout_width="236dp"
+                android:layout_height="221dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="600dp"
+                android:background="@drawable/boss_primal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/loadingprimal"
+                android:layout_marginTop="560dp"
+                android:layout_marginLeft="-10dp"/>
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

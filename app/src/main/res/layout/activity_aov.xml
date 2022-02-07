@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.bosses.HHActivity"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="379dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/aovclose" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Video guide made by StrikeRaid"
+                android:background="@color/colorPrimaryDark"
+                android:alpha="0.7"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_marginTop="470dp"
+                />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="500dp"
+                app:videoId="d8K3LkcXh4I"
+                app:autoPlay="false"
+                app:useWebUi="false"
+                app:showFullScreenButton="false" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="370dp"
+                android:src="@drawable/yorhakha" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:text="Gear obtainable :"
+                android:textSize="22sp"
+                android:layout_marginTop="780dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:text="This lvl 60 raid is divided in two parts : hard and manic.
+Hard one is easier and gives an easy gear to get and helps to reach the manic version without
+primal gear. The manic one gives a better equipment but harder to forge,loot"
+                android:textSize="14sp"
+                android:layout_marginTop="820dp"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="421dp"
+                android:layout_marginTop="900dp"
+                android:src="@drawable/villor1" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="421dp"
+                android:layout_marginTop="1280dp"
+                android:src="@drawable/villorwep" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:text="Requirements (hard) : No requirements others than a minimum of Soulstones\n
+Requirements (manic):\n
+-1580 accuracy,Soulstones lvl 8/9, and the beginning of optimisation with broochs"
+                android:layout_marginTop="1700dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:text="Special notice, you can use the aov armor 2, at your own risks for pvp only\n
+Else it will be an instant blacklist by my side."
+                android:layout_marginTop="1800dp"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

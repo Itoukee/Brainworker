@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.bosses.HHActivity"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="354dp"
+            android:layout_height="360dp"
+            android:layout_marginTop="-10dp"
+            android:src="@drawable/hhclose"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Video guide made by Zero "
+            android:background="@color/colorPrimaryDark"
+            android:alpha="0.7"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginTop="470dp"
+            />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            app:videoId="IUbV7vorTDQ"
+            app:autoPlay="false"
+            app:useWebUi="false"
+            app:showFullScreenButton="false" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="350dp"
+            android:src="@drawable/raphakumba" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFF"
+            android:text="Gear obtainable :"
+            android:textSize="22sp"
+            android:layout_marginTop="780dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFF"
+            android:text="In this raid you can loot standard and extend gears, we strongly recommand the
+extend one because it is stronger, but it will be hard to get good stats on.
+The stats you need to get are : \ncc% -> cdr% -> crit damage"
+            android:textSize="14sp"
+            android:layout_marginTop="820dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="421dp"
+            android:layout_marginTop="900dp"
+            android:src="@drawable/standard" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="421dp"
+            android:layout_marginTop="1280dp"
+            android:src="@drawable/extend" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFF"
+            android:text="Requirements :\n
+-1810 accuracy,30% ab,25% cdr,75% boss\n
+The akashas you can need are :`\n
+Maggidon/IO \n(you can skip Magiddon if you have all the perfect akashas as Tenebris/Veneris/Arua/Erwin/IO)"
+            android:layout_marginTop="1700dp"
+            />
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="107dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="1800dp"
+            android:src="@drawable/akashas_reco" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="416dp"
+            android:src="@drawable/hhweaponstwo"
+            android:layout_marginTop="2260dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="416dp"
+            android:src="@drawable/hhweaponsone"
+            android:layout_marginTop="1910dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFF"
+            android:text="Special notice for the others characters :\n
+-Chii's HH weapon is better in HH but Aov weapon is better everywhere\n
+-Lilly's HH weapon is better only in IDD\n
+-Jin's Aov weapon is better in IDD"
+            android:layout_marginTop="2500dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="424dp"
+            android:layout_marginTop="2600dp"
+            android:src="@drawable/hhweapon" />
+
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

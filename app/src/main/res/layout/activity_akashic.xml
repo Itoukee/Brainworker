@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/akasha_page"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="319dp"
+                android:layout_height="191dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/titleakasha" />
+            <ImageView
+                android:layout_width="290dp"
+                android:layout_height="400dp"
+                android:src="@drawable/akashic_a_road_buster"
+                android:layout_marginTop="220dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerInside"/>
+
+            <ImageView
+                android:layout_width="290dp"
+                android:layout_height="400dp"
+                android:id="@+id/akasha_loot"
+                android:layout_marginTop="220dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerInside"/>
+
+            <Button
+                android:id="@+id/akasha_button"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="600dp"
+                android:background="@drawable/button_akashic"
+                android:onClick="displayToast"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
